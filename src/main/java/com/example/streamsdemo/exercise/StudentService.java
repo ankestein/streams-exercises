@@ -11,7 +11,7 @@ import java.util.stream.Collectors;
 
 public class StudentService {
 
-    private final ArrayList<Student> students = new ArrayList<>(List.of(
+    private final List<Student> students = new ArrayList<>(List.of(
             Student.builder().name("Frank").location("Hamburg").age(42).build(),
             Student.builder().name("Maria").location("Köln").age(15).build(),
             Student.builder().name("Klaus").location("Frankfurt").age(22).build(),
