@@ -53,7 +53,7 @@ public class StudentService {
     }
 
     public int getPopulation(Location location){
-        return location.getPopulation();
+        return location.population;
     }
 
 }
