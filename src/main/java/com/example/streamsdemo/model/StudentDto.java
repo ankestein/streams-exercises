@@ -11,6 +11,6 @@ import lombok.NoArgsConstructor;
 @Builder
 public class StudentDto {
     private String name;
-    private String location;
+    private Location location;
 
 }
